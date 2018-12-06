@@ -16,10 +16,11 @@ body .dribbble {
   transition: all .4s ease;
 }
 
-/*body .dribbble:hover {
+body .dribbble:hover {
   opacity: 1;
 }
-body .dribbble img {
+
+/*body .dribbble img {
   display: block;
   height: 36px;
 }
