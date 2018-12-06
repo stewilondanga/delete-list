@@ -7,11 +7,14 @@ var navigate = (function() {
   });
 })();
 
-/*$.fn.slideFadeToggle  = function(speed, easing, callback) {
-    return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
+$.fn.slideFadeToggle = function(speed, easing, callback) {
+  return this.animate({
+    opacity: 'toggle',
+    height: 'toggle'
+  }, speed, easing, callback);
 };
 
-$('.deleteList li').each(function() {
+/*$('.deleteList li').each(function() {
     var text = $(this).children('span').text();
     $(this).children('span').after($('<span />').text(text));
 });
