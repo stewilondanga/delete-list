@@ -6,6 +6,30 @@
   background-size: 100%;
 }
 
+body {
+  min-height: 100vh;
+  font-family: Lato, Arial;
+  color: #ADAFB6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body .dribbble {
+  position: fixed;
+  display: block;
+  right: 20px;
+  bottom: 20px;
+  opacity: .5;
+  transition: all .4s ease;
+}
+body .dribbble:hover {
+  opacity: 1;
+}
+body .dribbble img {
+  display: block;
+  height: 36px;
+}
+
 .my_social {
   position: absolute;
   top: 25px;
@@ -156,29 +180,6 @@
   display: none;
 }
 
-body {
-  min-height: 100vh;
-  font-family: Lato, Arial;
-  color: #ADAFB6;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body .dribbble {
-  position: fixed;
-  display: block;
-  right: 20px;
-  bottom: 20px;
-  opacity: .5;
-  transition: all .4s ease;
-}
-body .dribbble:hover {
-  opacity: 1;
-}
-body .dribbble img {
-  display: block;
-  height: 36px;
-}
 
 .containers {
   width: 520px;
