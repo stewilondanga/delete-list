@@ -121,7 +121,7 @@ body .dribbble img {
   transition: all .3s ease;
 }
 
-/*.deleteList li .delete svg {
+.deleteList li .delete svg {
   display: block;
   width: 20px;
   fill: none;
@@ -130,7 +130,8 @@ body .dribbble img {
   stroke-width: 2;
   transition: all .3s ease;
 }
-.deleteList li .delete svg circle {
+
+/*.deleteList li .delete svg circle {
   stroke-dasharray: 64;
   transition: all .3s ease;
 }
