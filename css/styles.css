@@ -57,14 +57,15 @@ body .dribbble img {
   display: flex;
 }
 
-/*.deleteList li span {
+.deleteList li span {
   display: block;
   overflow: hidden;
   transition: opacity .5s ease .3s, -webkit-transform .3s ease .1s;
   transition: transform .3s ease .1s, opacity .5s ease .3s;
   transition: transform .3s ease .1s, opacity .5s ease .3s, -webkit-transform .3s ease .1s;
 }
-.deleteList li span:nth-child(1) {
+
+/*.deleteList li span:nth-child(1) {
   position: absolute;
   left: 0;
   top: 0;
