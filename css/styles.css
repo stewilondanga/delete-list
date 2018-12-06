@@ -154,11 +154,12 @@ body .dribbble img {
   height: 2px;
 }
 
-/*.deleteList li .delete:after {
+.deleteList li .delete:after {
   height: 10px;
   width: 2px;
 }
-.deleteList li .delete.active svg circle {
+
+/*.deleteList li .delete.active svg circle {
   stroke-dashoffset: 64;
 }
 .deleteList li .delete.active:before, .deleteList li .delete.active:after {
