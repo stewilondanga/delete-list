@@ -96,7 +96,7 @@ body .dribbble img {
   margin-bottom: 0;
 }
 
-/*.deleteList li .line {
+.deleteList li .line {
   border-radius: 2px;
   background: #F26175;
   height: 2px;
@@ -106,7 +106,8 @@ body .dribbble img {
   position: absolute;
   z-index: 1;
 }
-.deleteList li .delete {
+
+/*.deleteList li .delete {
   position: relative;
   width: 20px;
   height: 20px;
