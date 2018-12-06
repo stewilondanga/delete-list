@@ -40,12 +40,13 @@ body .dribbble img {
   height: 1.5em;
 }
 
-/*.deleteList {
+.deleteList {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.deleteList li {
+
+/*.deleteList li {
   white-space: nowrap;
   position: relative;
   line-height: 24px;
