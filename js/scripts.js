@@ -14,12 +14,12 @@ $.fn.slideFadeToggle = function(speed, easing, callback) {
   }, speed, easing, callback);
 };
 
-/*$('.deleteList li').each(function() {
-    var text = $(this).children('span').text();
-    $(this).children('span').after($('<span />').text(text));
+$('.deleteList li').each(function() {
+  var text = $(this).children('span').text();
+  $(this).children('span').after($('<span />').text(text));
 });
 
-$('.deleteList li .delete').on('click', function(e) {
+/*$('.deleteList li .delete').on('click', function(e) {
     $(this).addClass('active hover');
     var line = $('<div />').addClass('line');
     var li = $(this).parent();
