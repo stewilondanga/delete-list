@@ -75,12 +75,13 @@ body .dribbble img {
   transform-origin: left bottom;
 }
 
-/*.deleteList li span:nth-child(2) {
+.deleteList li span:nth-child(2) {
   position: relative;
   -webkit-transform-origin: left center;
-          transform-origin: left center;
+  transform-origin: left center;
 }
-.deleteList li span:nth-child(2):before {
+
+/*.deleteList li span:nth-child(2):before {
   content: '';
   left: 0;
   top: 0;
