@@ -149,11 +149,12 @@ body .dribbble img {
   transition: all .3s ease;
 }
 
-/*.deleteList li .delete:before {
+.deleteList li .delete:before {
   width: 10px;
   height: 2px;
 }
-.deleteList li .delete:after {
+
+/*.deleteList li .delete:after {
   height: 10px;
   width: 2px;
 }
