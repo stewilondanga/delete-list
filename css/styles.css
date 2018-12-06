@@ -7,7 +7,7 @@ body {
   align-items: center;
 }
 
-/*body .dribbble {
+body .dribbble {
   position: fixed;
   display: block;
   right: 20px;
@@ -15,7 +15,8 @@ body {
   opacity: .5;
   transition: all .4s ease;
 }
-body .dribbble:hover {
+
+/*body .dribbble:hover {
   opacity: 1;
 }
 body .dribbble img {
