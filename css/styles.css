@@ -46,7 +46,7 @@ body .dribbble img {
   list-style: none;
 }
 
-/*.deleteList li {
+.deleteList li {
   white-space: nowrap;
   position: relative;
   line-height: 24px;
@@ -56,7 +56,8 @@ body .dribbble img {
   color: #212533;
   display: flex;
 }
-.deleteList li span {
+
+/*.deleteList li span {
   display: block;
   overflow: hidden;
   transition: opacity .5s ease .3s, -webkit-transform .3s ease .1s;
