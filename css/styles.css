@@ -65,16 +65,17 @@ body .dribbble img {
   transition: transform .3s ease .1s, opacity .5s ease .3s, -webkit-transform .3s ease .1s;
 }
 
-/*.deleteList li span:nth-child(1) {
+.deleteList li span:nth-child(1) {
   position: absolute;
   left: 0;
   top: 0;
   z-index: 1;
   height: 12px;
   -webkit-transform-origin: left bottom;
-          transform-origin: left bottom;
+  transform-origin: left bottom;
 }
-.deleteList li span:nth-child(2) {
+
+/*.deleteList li span:nth-child(2) {
   position: relative;
   -webkit-transform-origin: left center;
           transform-origin: left center;
