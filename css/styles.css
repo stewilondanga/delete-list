@@ -131,11 +131,12 @@ body .dribbble img {
   transition: all .3s ease;
 }
 
-/*.deleteList li .delete svg circle {
+.deleteList li .delete svg circle {
   stroke-dasharray: 64;
   transition: all .3s ease;
 }
-.deleteList li .delete:before, .deleteList li .delete:after {
+
+/*.deleteList li .delete:before, .deleteList li .delete:after {
   content: '';
   display: block;
   position: absolute;
