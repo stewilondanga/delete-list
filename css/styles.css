@@ -136,7 +136,7 @@ body .dribbble img {
   transition: all .3s ease;
 }
 
-/*.deleteList li .delete:before, .deleteList li .delete:after {
+.deleteList li .delete:before, .deleteList li .delete:after {
   content: '';
   display: block;
   position: absolute;
@@ -145,10 +145,11 @@ body .dribbble img {
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%) rotate(135deg);
-          transform: translate(-50%, -50%) rotate(135deg);
+  transform: translate(-50%, -50%) rotate(135deg);
   transition: all .3s ease;
 }
-.deleteList li .delete:before {
+
+/*.deleteList li .delete:before {
   width: 10px;
   height: 2px;
 }
