@@ -81,7 +81,7 @@ body .dribbble img {
   transform-origin: left center;
 }
 
-/*.deleteList li span:nth-child(2):before {
+.deleteList li span:nth-child(2):before {
   content: '';
   left: 0;
   top: 0;
@@ -91,7 +91,8 @@ body .dribbble img {
   position: absolute;
   display: block;
 }
-.deleteList li:last-child {
+
+/*.deleteList li:last-child {
   margin-bottom: 0;
 }
 .deleteList li .line {
