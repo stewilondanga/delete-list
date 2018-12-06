@@ -107,7 +107,7 @@ body .dribbble img {
   z-index: 1;
 }
 
-/*.deleteList li .delete {
+.deleteList li .delete {
   position: relative;
   width: 20px;
   height: 20px;
@@ -120,7 +120,8 @@ body .dribbble img {
   -webkit-filter: grayscale(100%);
   transition: all .3s ease;
 }
-.deleteList li .delete svg {
+
+/*.deleteList li .delete svg {
   display: block;
   width: 20px;
   fill: none;
