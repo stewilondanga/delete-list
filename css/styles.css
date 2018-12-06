@@ -20,12 +20,12 @@ body .dribbble:hover {
   opacity: 1;
 }
 
-/*body .dribbble img {
+body .dribbble img {
   display: block;
   height: 36px;
 }
 
-.my_social {
+/*.my_social {
   position: absolute;
   top: 25px;
   left: 25px;
