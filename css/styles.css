@@ -163,11 +163,12 @@ body .dribbble img {
   stroke-dashoffset: 64;
 }
 
-/*.deleteList li .delete.active:before, .deleteList li .delete.active:after {
+.deleteList li .delete.active:before, .deleteList li .delete.active:after {
   -webkit-transform: translate(-50%, -50%) rotate(0deg);
-          transform: translate(-50%, -50%) rotate(0deg);
+  transform: translate(-50%, -50%) rotate(0deg);
 }
-.deleteList li .delete.active:after {
+
+/*.deleteList li .delete.active:after {
   opacity: 0;
 }
 .deleteList li .delete:hover, .deleteList li .delete.hover {
