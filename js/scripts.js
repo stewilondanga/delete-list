@@ -1,13 +1,13 @@
-/*var navigate = (function() {
-	$('.dd').toggle();
-	$('.dd_btn').click(function() {
-		var dataName = $(this).attr('data-name');
-		$('.dd').hide();
-		$('.' + dataName).toggle();
-	});
+var navigate = (function() {
+  $('.dd').toggle();
+  $('.dd_btn').click(function() {
+    var dataName = $(this).attr('data-name');
+    $('.dd').hide();
+    $('.' + dataName).toggle();
+  });
 })();
 
-$.fn.slideFadeToggle  = function(speed, easing, callback) {
+/*$.fn.slideFadeToggle  = function(speed, easing, callback) {
     return this.animate({opacity: 'toggle', height: 'toggle'}, speed, easing, callback);
 };
 
