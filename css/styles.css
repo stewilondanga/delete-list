@@ -92,10 +92,11 @@ body .dribbble img {
   display: block;
 }
 
-/*.deleteList li:last-child {
+.deleteList li:last-child {
   margin-bottom: 0;
 }
-.deleteList li .line {
+
+/*.deleteList li .line {
   border-radius: 2px;
   background: #F26175;
   height: 2px;
